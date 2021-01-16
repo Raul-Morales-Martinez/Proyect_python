@@ -9,3 +9,5 @@ mayordeedad = True
 #tipo de variable
 print("esta variable es de tipo",type(texto1))
 print("esta variable es de tipo",type(mayordeedad))
+
+#clase 15/01/2021
