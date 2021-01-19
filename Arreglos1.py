@@ -44,3 +44,20 @@ print(lista_pares)#[1,4,7,8,0] se modifican ambos arreglos
 #agrega un valor al alrreglo al final
 arreglo.append("a")
 print(arreglo)#[1,4,7,8,0,'a']
+
+##invertir listas
+lenguajes = ["Go", "Rust", "C", "JavaScript", "PHP", "Python"]
+print("Original", lenguajes)
+
+lenguajes.reverse()
+print("Reverse: ", lenguajes)#['Python', 'PHP', 'JavaScript', 'C', 'Rust', 'Go']
+
+print(lenguajes[2:])
+print(lenguajes[:2])
+print(lenguajes[:])
+print(lenguajes[::])
+print(lenguajes[-2])
+print()
+
+invertidos = lenguajes[::-1]
+print("Invertidos: ",invertidos)
