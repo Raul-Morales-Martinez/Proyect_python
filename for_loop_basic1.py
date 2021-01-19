@@ -32,3 +32,4 @@ mult = 5
 for x in range(lowNum,highNum+1):
     if x % mult == 0:
         print(x)
+#for x in range(,-,-)

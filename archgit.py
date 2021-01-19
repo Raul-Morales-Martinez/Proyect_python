@@ -27,3 +27,15 @@ print(x.title())
 "Hello World"
 ##
 ##
+#funciones
+def add(a,b):#nombre de la función: 'add', parámetros: a y b 
+    x = a + b# proceso
+    return x# retorno value: x
+#variables de la funcion
+new_val = add(3, 5)    # llamando a la función add, con los argumentos 3 y 5 copy
+print(new_val)    # el resultado de la función add se devuelve y se guarda en new_val, por lo que veremo
+#ejemplos de funciones
+def say_hi(name):
+    return "Hi " + name
+greeting = say_hi("Michael") # el valor devuelto por la función se asigna a la variable
+print(greeting) # mostrará 'Hi Michael'
