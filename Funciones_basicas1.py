@@ -130,5 +130,5 @@ def b():
     return 5
 y = a()
 print(y)
-#respt: 1, 3, 5, 10
+#respt: 1, 3, 5, 10.
 
