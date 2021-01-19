@@ -8,7 +8,7 @@ print( "Hola"+name+"42!")	# con un +
 # 3. imprimir "Hola 42!" con un numero en una variable
 name = 42
 print( "hola",name)	# con una coma
-#print( "hola"+name)	# con un + - !Este debería darnos un error!
+print( "hola",name)	# con un + - !Este debería darnos un error!
 # 4. imprimir "Me encanta comer sushi and pizza." con los alimentos en variables
 fave_food1 = "sushi"
 fave_food2 = "pizza"
